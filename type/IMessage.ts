@@ -1,7 +1,7 @@
 export interface IMessage {
   id: number;
   chatId: number;
-  status: 'send' | 'receive';
+  senderType: 'user' | 'bot';
   content: string;
   time: Date;
 }
