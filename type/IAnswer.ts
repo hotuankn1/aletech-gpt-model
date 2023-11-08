@@ -1,6 +1,6 @@
 export interface IAnswer{
     id: number;
-    intendId: number;
+    intentId: number;
     answer: string;
 
 }
