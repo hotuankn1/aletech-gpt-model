@@ -1,5 +1,5 @@
 export interface INoUnderstandMessage {
-  id: number;
-  content: string;
-  answer: string;
+  messageIds: number[];
+  question: string;
+  answers: string[];
 }
