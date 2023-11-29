@@ -6,4 +6,5 @@ export interface IIntent {
     createdBy: number;
     questions?: IQuestion[];
     answers?: IAnswer[];
+    deletedAt: Date;
 }

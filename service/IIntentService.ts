@@ -8,6 +8,6 @@ export interface IIntentService {
     search: string,
   ): Promise<IPagination<IIntent>>;
   createOrUpdate(intent: IIntent): Promise<IIntent>;
-  delete(id: number): Promise<void>;
+  delete(id: number): Promise<IIntent>;
   getById(id: number): Promise<IIntent>;
 }
