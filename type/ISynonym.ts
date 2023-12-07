@@ -1,7 +1,6 @@
-
-export interface ISynonym{
-    id: number;
-    wordId: number;
-    content: string;
-    deletedAt: Date;
+export interface ISynonym {
+  id: number;
+  wordId: number;
+  content: string;
+  deletedAt: Date;
 }

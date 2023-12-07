@@ -1,4 +1,4 @@
-import { IIntentContext } from "./IIntent";
+import { IIntentContext } from './IIntent';
 
 export interface IContext {
   id: number;
@@ -6,4 +6,3 @@ export interface IContext {
   deletedAt: Date;
   intentContexts?: IIntentContext[];
 }
-
